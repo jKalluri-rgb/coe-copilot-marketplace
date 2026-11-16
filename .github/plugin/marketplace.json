@@ -1,0 +1,14 @@
+{
+  "name": "infi-marketplace",
+  "owner": {
+    "name": "INFI AI Engineering"
+  },
+  "plugins": [
+    {
+      "name": "hello-plugin",
+      "description": "Hello Plugin agents, skills and MCP integrations",
+      "version": "1.0.0",
+      "source": "./plugins/hello-plugin"
+    }
+  ]
+}

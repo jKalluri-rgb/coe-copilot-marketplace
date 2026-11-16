@@ -1,0 +1,14 @@
+{
+  "name": "infi",
+  "owner": {
+    "name": "Jayanth Kalluri"
+  },
+  "plugins": [
+    {
+      "name": "hello-plugin",
+      "description": "Custom GitHub Copilot plugin",
+      "version": "0.1.0",
+      "source": "../.."
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
+  "mcpServers": {
+    "engineering-platform": {
+      "type": "streamable-http",
+      "url": "https://engineering-mcp.company.com/mcp"
+    },
+    "documentation-platform": {
+      "type": "streamable-http",
+      "url": "https://documentation-mcp.company.com/mcp"
+    }
+  }
+}
