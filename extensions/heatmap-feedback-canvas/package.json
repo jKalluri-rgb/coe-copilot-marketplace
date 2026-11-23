@@ -1,0 +1,11 @@
+{
+  "name": "heatmap-feedback-canvas",
+  "version": "1.0.0",
+  "description": "Interactive heatmap rating and feedback canvas for GitHub Copilot",
+  "main": "extension.mjs",
+  "type": "module",
+  "license": "MIT",
+  "dependencies": {
+    "@github/copilot-sdk": "latest"
+  }
+}

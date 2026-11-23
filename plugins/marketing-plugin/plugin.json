@@ -1,0 +1,15 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "marketing-plugin",
+  "description": "Marketing tools including interactive heatmap review and feedback.",
+  "version": "1.0.0",
+  "author": {
+      "name": "INFI AI Engineering"
+  },
+  "license": "MIT",
+  "extensions": {
+      "com.github.copilot": {
+          "logo": "assets/infi.png"
+      }
+  }
+}

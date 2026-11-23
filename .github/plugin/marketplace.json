@@ -1,0 +1,18 @@
+{
+  "name": "infi-marketplace",
+  "owner": {
+    "name": "INFI AI Engineering"
+  },
+  "metadata": {
+    "description": "Copilot plugins for INFI Marketing AI",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "marketing-plugin",
+      "description": "Marketing Plugin agents, skills and MCP integrations",
+      "version": "1.0.0",
+      "source": "./plugins/marketing-plugin"
+    }
+  ]
+}
