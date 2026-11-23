@@ -1,27 +1,24 @@
-infi-marketplace/
+coe-copilot-marketplace
+│   .gitattributes
+│   .gitignore
+│   LICENSE
+│   README.md
 │
-├── .github/
-│   ├── plugin/
-│   │   └── marketplace.json
-│   │
-│   └── workflows/
+├───.github
+│   └───plugin
+│           marketplace.json
 │
-├── plugins/
-│   └── plugin/
-│       │
-│       ├── plugin.json
-│       ├── mcp.json
-│       │
-│       ├── skills/
-│       │   └── skill/
-│       │       ├── SKILL.md
-│       │       ├── references/
-│       │       └── scripts/
-│       │
-│       └── com.github.copilot/
-│           ├── agents/
-│           └── hooks/
+├───extensions
+│   └───heatmap-feedback-canvas
+│           extension.mjs
+│           index.html
+│           package.json
 │
-├── shared/
-├── tests/
-└── tools/
+├───instructions
+└───plugins
+    └───marketing-plugin
+        │   plugin.json
+        │   README.md
+        │
+        └───assets
+                infi.png
